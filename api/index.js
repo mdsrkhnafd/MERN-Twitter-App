@@ -5,11 +5,11 @@ import cors from "cors";
 import serverless from "serverless-http";
 import { v2 as cloudinary } from "cloudinary";
 
-import authRoutes from "../routes/auth.route.js";
-import userRoutes from "../routes/user.route.js";
-import postRoutes from "../routes/post.route.js";
-import notificationRoutes from "../routes/notification.route.js";
-import connectDB from "../config/db.js";
+import authRoutes from "../backend/routes/auth.route.js";
+import userRoutes from "../backend/routes/user.route.js";
+import postRoutes from "../backend/routes/post.route.js";
+import notificationRoutes from "../backend/routes/notification.route.js";
+import connectDB from "../backend/config/db.js";
 
 dotenv.config();
 
